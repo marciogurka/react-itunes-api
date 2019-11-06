@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfaa7a340e4e2bdf101be2af3b0328a5",
+    "revision": "3bb1b46b372dd225b1d54ee81cb1830d",
     "url": "/react-itunes-api/index.html"
   },
   {
-    "revision": "7e1a0577338c5541e781",
+    "revision": "b42bed00639ebb697f7b",
     "url": "/react-itunes-api/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-itunes-api/static/js/2.4d31d063.chunk.js"
   },
   {
-    "revision": "7e1a0577338c5541e781",
-    "url": "/react-itunes-api/static/js/main.4475cdbe.chunk.js"
+    "revision": "b42bed00639ebb697f7b",
+    "url": "/react-itunes-api/static/js/main.11ac3d6a.chunk.js"
   },
   {
     "revision": "089ba67d71be1d0abe4d",
