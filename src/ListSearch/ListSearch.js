@@ -20,8 +20,18 @@ const useStyles = makeStyles(theme => ({
   textField: {
     width: '100%'
   },
-  welcomeImg: {
+  gifContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    margin: 0,
+    width: '100%'
+  },
+  gifImg: {
     maxHeight: '100%'
+  },
+  noResultsSpan: {
+    display: 'block',
+    marginBottom: theme.spacing(3)
   },
   cardGrid: {
     paddingTop: theme.spacing(6),
@@ -103,15 +113,17 @@ export default function ListSearch({items, searchAlbum, search}) {
           <Grid container spacing={4} className="no-results-info" justify="center">
             { values.search && 
               <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                There is no results for "{ values.search }"
-                <Box component="div" m={1}>
-                  <img className={classes.welcomeImg} src="https://media.giphy.com/media/l41lOzTIL8lfZ15fy/giphy.gif" alt="No results"/>
+                <Typography variant="h5" align="center" color="textSecondary" component="span" className={classes.noResultsSpan}>
+                  There is no results for "{ values.search }"
+                </Typography>
+                <Box component="div" m={1} className={classes.gifContainer}>
+                  <img className={classes.gifImg} src="https://media.giphy.com/media/l41lOzTIL8lfZ15fy/giphy.gif" alt="No results"/>
                 </Box>
               </Typography>
             }
             { !values.search && 
-              <Box component="div" m={1}>
-                <img className={classes.welcomeImg} src="https://media.giphy.com/media/3oKIPd3Uwz7lqZW9uo/giphy.gif" alt="Welcome"/>
+              <Box component="div" m={1} className={classes.gifContainer}>
+                <img className={classes.gifImg} src="https://media.giphy.com/media/3oKIPd3Uwz7lqZW9uo/giphy.gif" alt="Welcome"/>
               </Box>
               
             }
