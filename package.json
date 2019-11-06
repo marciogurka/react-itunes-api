@@ -2,10 +2,12 @@
   "name": "react-itunes-api",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://marciogurka.com/react-itunes-api",
   "dependencies": {
     "@material-ui/core": "^4.5.2",
     "@material-ui/icons": "^4.5.1",
     "axios": "^0.19.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
@@ -14,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --verbose",
     "eject": "react-scripts eject"
   },
