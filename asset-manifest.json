@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-itunes-api/static/css/main.34de6062.chunk.css",
+    "main.js": "/react-itunes-api/static/js/main.4475cdbe.chunk.js",
+    "main.js.map": "/react-itunes-api/static/js/main.4475cdbe.chunk.js.map",
+    "runtime-main.js": "/react-itunes-api/static/js/runtime-main.6567df6f.js",
+    "runtime-main.js.map": "/react-itunes-api/static/js/runtime-main.6567df6f.js.map",
+    "static/js/2.4d31d063.chunk.js": "/react-itunes-api/static/js/2.4d31d063.chunk.js",
+    "static/js/2.4d31d063.chunk.js.map": "/react-itunes-api/static/js/2.4d31d063.chunk.js.map",
+    "index.html": "/react-itunes-api/index.html",
+    "precache-manifest.f12dcab68c5052c31cd2dfa9d21517a6.js": "/react-itunes-api/precache-manifest.f12dcab68c5052c31cd2dfa9d21517a6.js",
+    "service-worker.js": "/react-itunes-api/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/react-itunes-api/static/css/main.34de6062.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6567df6f.js",
+    "static/js/2.4d31d063.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.4475cdbe.chunk.js"
+  ]
+}
